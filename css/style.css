@@ -3,7 +3,7 @@
 
 }
 .container {
-    width: 80%;
+    width: 68%;
     margin: auto;
     overflow: hidden;
 }
@@ -85,11 +85,13 @@ input {
     
     font-family: 'Patrick Hand', cursive;
     color: #666a42;
-    background-image: url("img/list-bg.png");
-    height: 260px;
+    background-image: url("list-bg.png");
+    background-size: cover;
+    height: 350px;
     padding: 37px 0 0 60px;
     margin: 106px 0;
     margin-left: 170px;
+    width: 72%;
   }
   
   .my-list li {
@@ -116,9 +118,10 @@ input {
   }
   
   footer p {
-    padding-left: 100px;
+    padding-left: 10px;
     width: 65%;
     margin: 0;
+    
     text-indent: 0;
   
   }
@@ -131,6 +134,8 @@ input {
     background: #b8705a;
     color: #ffff;
     font-size: 15px;
+    margin-top: 0px;
+    margin-right: 165px;
     border: none;
   }
   
@@ -148,5 +153,6 @@ input {
   } 
   .ss{
 
-    margin-left: 200px;
+    
+    margin-left: 160px;
   }
